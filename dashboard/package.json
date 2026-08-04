@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "test": "node --test build/lib/__tests__/*.test.mjs",
-    "build": "node build/buildAll.mjs"
+    "build": "node build/buildAll.mjs",
+    "build:static": "node build/renderStatic.mjs"
   },
   "dependencies": {
     "xlsx": "^0.18.5"

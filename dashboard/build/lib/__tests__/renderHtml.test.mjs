@@ -38,18 +38,30 @@ test('includes the bonus widget factory name', () => {
   assert.match(html, /테스트공장/);
 });
 
-test('includes a sort-toggle button with a click handler', () => {
+test('includes filter, search, and metric sort controls with handlers', () => {
   const html = renderHtml(FIXTURE_DATA);
-  assert.match(html, /id="sort-toggle"/);
+  assert.match(html, /id="region-search"/);
+  assert.match(html, /id="sort-select"/);
+  assert.match(html, /data-filter="warning"/);
   assert.match(html, /addEventListener\('click'/);
+  assert.match(html, /addEventListener\('change'/);
 });
 
-test('cards carry a data-status attribute for client-side sorting', () => {
+test('region rows carry a data-status attribute for client-side sorting', () => {
   const html = renderHtml(FIXTURE_DATA);
   assert.match(html, /data-status="good"/);
 });
 
-test('metric labels carry explanatory title tooltips', () => {
+test('metric headers carry explanatory title tooltips', () => {
   const html = renderHtml(FIXTURE_DATA);
-  assert.match(html, /<dt title="[^"]+">수출입 증감/);
+  assert.match(html, /<span title="[^"]+">수출입 증감/);
+});
+
+test('escapes unsafe values rendered into HTML', () => {
+  const html = renderHtml({
+    ...FIXTURE_DATA,
+    factorySample: [{ companyName: '<script>alert(1)</script>', employeeCount: 1, industryName: '제조업', mainProduct: '제품' }],
+  });
+  assert.doesNotMatch(html, /<script>alert\(1\)<\/script>/);
+  assert.match(html, /&lt;script&gt;alert\(1\)&lt;\/script&gt;/);
 });
