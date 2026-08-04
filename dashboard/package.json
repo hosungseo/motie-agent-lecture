@@ -4,7 +4,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "test": "node --test build/lib",
+    "test": "node --test build/lib/__tests__/*.test.mjs",
     "build": "node build/buildAll.mjs"
   },
   "dependencies": {
