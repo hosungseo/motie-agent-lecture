@@ -1,0 +1,13 @@
+{
+  "name": "motie-lecture-dashboard",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test build/lib",
+    "build": "node build/buildAll.mjs"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
