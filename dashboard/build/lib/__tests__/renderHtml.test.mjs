@@ -37,3 +37,19 @@ test('includes the bonus widget factory name', () => {
   const html = renderHtml(FIXTURE_DATA);
   assert.match(html, /테스트공장/);
 });
+
+test('includes a sort-toggle button with a click handler', () => {
+  const html = renderHtml(FIXTURE_DATA);
+  assert.match(html, /id="sort-toggle"/);
+  assert.match(html, /addEventListener\('click'/);
+});
+
+test('cards carry a data-status attribute for client-side sorting', () => {
+  const html = renderHtml(FIXTURE_DATA);
+  assert.match(html, /data-status="good"/);
+});
+
+test('metric labels carry explanatory title tooltips', () => {
+  const html = renderHtml(FIXTURE_DATA);
+  assert.match(html, /<dt title="[^"]+">수출입 증감/);
+});
