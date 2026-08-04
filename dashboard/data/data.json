@@ -1,0 +1,217 @@
+{
+  "regions": [
+    {
+      "code": "11",
+      "fullName": "서울특별시",
+      "shortName": "서울",
+      "exportChangePct": 0.4973864883248717,
+      "occupancyRate": 91.50051124744377,
+      "saleRate": 94.47,
+      "netPowerChange": 140161,
+      "status": "good"
+    },
+    {
+      "code": "26",
+      "fullName": "부산광역시",
+      "shortName": "부산",
+      "exportChangePct": -2.5195191290136356,
+      "occupancyRate": 92.79309199601461,
+      "saleRate": 95.88,
+      "netPowerChange": 47200,
+      "status": "neutral"
+    },
+    {
+      "code": "27",
+      "fullName": "대구광역시",
+      "shortName": "대구",
+      "exportChangePct": 1.7411443340666946,
+      "occupancyRate": 97.78422835026609,
+      "saleRate": 88.58,
+      "netPowerChange": 97121,
+      "status": "good"
+    },
+    {
+      "code": "28",
+      "fullName": "인천광역시",
+      "shortName": "인천",
+      "exportChangePct": 1.0541561778649444,
+      "occupancyRate": 94.39561925365062,
+      "saleRate": 94.82,
+      "netPowerChange": 59171,
+      "status": "good"
+    },
+    {
+      "code": "29",
+      "fullName": "광주광역시",
+      "shortName": "광주",
+      "exportChangePct": 12.635975703657406,
+      "occupancyRate": 89.08855131530197,
+      "saleRate": 97.26,
+      "netPowerChange": 20022,
+      "status": "neutral"
+    },
+    {
+      "code": "30",
+      "fullName": "대전광역시",
+      "shortName": "대전",
+      "exportChangePct": 8.974269921404208,
+      "occupancyRate": 92.47787610619469,
+      "saleRate": 100,
+      "netPowerChange": 92127,
+      "status": "good"
+    },
+    {
+      "code": "31",
+      "fullName": "울산광역시",
+      "shortName": "울산",
+      "exportChangePct": -1.471836441290843,
+      "occupancyRate": 76.05242255758539,
+      "saleRate": 99.63,
+      "netPowerChange": 15026,
+      "status": "warning"
+    },
+    {
+      "code": "36",
+      "fullName": "세종특별자치시",
+      "shortName": "세종",
+      "exportChangePct": -10.093464698427285,
+      "occupancyRate": 92.38578680203045,
+      "saleRate": 97.73,
+      "netPowerChange": 141470,
+      "status": "neutral"
+    },
+    {
+      "code": "41",
+      "fullName": "경기도",
+      "shortName": "경기",
+      "exportChangePct": 9.367654928155378,
+      "occupancyRate": 94.90494296577947,
+      "saleRate": 90.96,
+      "netPowerChange": 342269,
+      "status": "good"
+    },
+    {
+      "code": "43",
+      "fullName": "충청북도",
+      "shortName": "충북",
+      "exportChangePct": 26.760904783676477,
+      "occupancyRate": 84.80725623582767,
+      "saleRate": 94.89,
+      "netPowerChange": 159666,
+      "status": "neutral"
+    },
+    {
+      "code": "44",
+      "fullName": "충청남도",
+      "shortName": "충남",
+      "exportChangePct": 4.831980601775139,
+      "occupancyRate": 86.85955394816153,
+      "saleRate": 95.87,
+      "netPowerChange": 321140,
+      "status": "neutral"
+    },
+    {
+      "code": "46",
+      "fullName": "전라남도",
+      "shortName": "전남",
+      "exportChangePct": -8.948424222890017,
+      "occupancyRate": 84.5305221868105,
+      "saleRate": 97.85,
+      "netPowerChange": 974290,
+      "status": "warning"
+    },
+    {
+      "code": "47",
+      "fullName": "경상북도",
+      "shortName": "경북",
+      "exportChangePct": -4.568347824758274,
+      "occupancyRate": 84.26674805432627,
+      "saleRate": 96.5,
+      "netPowerChange": 81406,
+      "status": "warning"
+    },
+    {
+      "code": "48",
+      "fullName": "경상남도",
+      "shortName": "경남",
+      "exportChangePct": 3.7269055255359866,
+      "occupancyRate": 92.21423258120505,
+      "saleRate": 94.78,
+      "netPowerChange": 70347,
+      "status": "good"
+    },
+    {
+      "code": "50",
+      "fullName": "제주특별자치도",
+      "shortName": "제주",
+      "exportChangePct": 80.2129383050704,
+      "occupancyRate": 98.54545454545455,
+      "saleRate": 100,
+      "netPowerChange": 6027,
+      "status": "good"
+    },
+    {
+      "code": "51",
+      "fullName": "강원특별자치도",
+      "shortName": "강원",
+      "exportChangePct": 6.218084008664119,
+      "occupancyRate": 89.58239784463403,
+      "saleRate": 92.52,
+      "netPowerChange": 43240,
+      "status": "neutral"
+    },
+    {
+      "code": "52",
+      "fullName": "전북특별자치도",
+      "shortName": "전북",
+      "exportChangePct": 1.637107347184417,
+      "occupancyRate": 90.44691416410498,
+      "saleRate": 94.44,
+      "netPowerChange": 38717,
+      "status": "good"
+    }
+  ],
+  "factorySample": [
+    {
+      "companyName": "SBSC(중소기업경영지원센터)",
+      "address": "인천광역시 남동구 호구포로 194 14층 1403호  (고잔동)",
+      "employeeCount": 6,
+      "industryName": "경영 컨설팅업",
+      "mainProduct": "경영컨설팅",
+      "registeredDate": ""
+    },
+    {
+      "companyName": "두하산업",
+      "address": "인천광역시 남동구 남동서로83번길 16, 2층, 116블럭 9로트(687-9번지) (고잔동)",
+      "employeeCount": 1,
+      "industryName": "비동력식 수공구 제조업",
+      "mainProduct": "기어바이스",
+      "registeredDate": "20240620"
+    },
+    {
+      "companyName": "에스지디",
+      "address": "인천광역시 남동구 남동대로79번길 79 (고잔동, 건영기공)",
+      "employeeCount": 1,
+      "industryName": "제판 및 조판업",
+      "mainProduct": "수지제판",
+      "registeredDate": ""
+    },
+    {
+      "companyName": "에이스종합상사",
+      "address": "인천광역시 남동구 능허대로 541 (고잔동)",
+      "employeeCount": 1,
+      "industryName": "육상 금속 골조 구조재 제조업",
+      "mainProduct": "프레타이",
+      "registeredDate": ""
+    },
+    {
+      "companyName": "주식회사 쏜다",
+      "address": "인천광역시 남동구 능허대로 583 3층 301호 (고잔동, 금호오션타워)",
+      "employeeCount": 18,
+      "industryName": "그 외 기타 전자부품 제조업 외 5 종",
+      "mainProduct": "초음파 센서류, 초음파 레벨메타, 유량계, 자동제어장치, 수도미터기, 원격검침기",
+      "registeredDate": "20211201"
+    }
+  ],
+  "generatedAt": "2026-08-04"
+}
