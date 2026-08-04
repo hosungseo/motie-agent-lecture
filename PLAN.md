@@ -20,6 +20,7 @@
 1. `agent/` — 역방향 메일 데모 에이전트: 데모 전용 Gmail을 IMAP 폴링 → 유형 분류 → 자동 회신(SMTP) → 처리대장(화면 표시용) 생성. 리허설 스크립트 포함
 2. `guide/` — A4 설치 가이드(Hermes Windows + Gemini 무료 키) + QR, 사후 과제(Gmail·텔레그램 연동)
 3. `deck/` — 기존 KRDS 덱 재구성 (훅/강의/클리닉 3부)
+4. `dashboard/` — 지역산업 현황판: 관세청(수출입)·산업단지공단(가동률)·KEPCO(전기사용고객 증감) 3개 기관 데이터를 자동 결합한 17개 시도 카드 그리드 정적 사이트. Factoryon API로 실시간 공장 등록정보 보너스 위젯 포함. 강의 12–38분 증거물 구간에 korea100·regmap과 나란히 배치. 오프라인 안전(빌드타임에 데이터 임베드, 라이브 API 호출 없음). 설계: `docs/superpowers/specs/2026-08-04-regional-industry-dashboard-design.md`
 
 ## 결정 사항
 
